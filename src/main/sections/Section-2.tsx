@@ -2,7 +2,7 @@ import SwiperSection from "./Swiper"
 
 const Section2 = () => {
   return (
-    <div className="flex h-[736px] w-[1110px] flex-col items-center justify-around bg-[#252525]">
+    <section className="flex h-[736px] w-[1110px] flex-col items-center justify-around bg-[#252525]">
       <div className="flex items-center justify-center">
         <img
           className="absolute z-20"
@@ -17,7 +17,7 @@ const Section2 = () => {
       </div>
 
       <SwiperSection />
-    </div>
+    </section>
   )
 }
 
