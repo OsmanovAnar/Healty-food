@@ -5,7 +5,7 @@ const Section1 = () => {
     <section className="my-[80px] flex h-full w-full flex-col items-center">
       {/* <p className="text-[72px] text-center ">Your Favourite Food Felivered Fot & Fresh</p> */}
 
-      <img src="/public/Cooking with fine Wi.png" alt="" />
+      <img src="/Cooking with fine Wi.png" alt="" />
 
       {/* <p className="text-[16px] w-[1100px] h-[163px] text-center">
         HEALTHY SWITCHER chefs do all the prep work, like peeling, chopping &
@@ -14,7 +14,7 @@ const Section1 = () => {
 
       <img
         className="mt-[16px]"
-        src="/public/Whether you barbecue.png"
+        src="/Whether you barbecue.png"
         alt=""
       />
 

@@ -2,7 +2,7 @@ const HeaderNav = () => {
   return (
     <nav className="flex h-[90px] w-[77%] items-center justify-between">
       <a href="#">
-        <img className="w-[207px]" src="./public/logo.png" alt="Logo" />
+        <img className="w-[207px]" src="/Logo.png" alt="Logo" />
       </a>
 
       <ul className="flex w-[303px] justify-between">

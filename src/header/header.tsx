@@ -1,4 +1,4 @@
-import HeaderNav from './Header-nav'
+import HeaderNav from "./header-nav"
 
 const Header = () => {
   return (

@@ -6,14 +6,14 @@ const Section2 = () => {
       <div className="flex items-center justify-center">
         <img
           className="absolute z-20"
-          src="/public/The Basics Of Buying.png"
+          src="/The Basics Of Buying.png"
           alt=""
         />
 
-        <img className="z-10" src="/public/ABOUT.png" alt="" />
+        <img className="z-10" src="/ABOUT.png" alt="" />
       </div>
       <div>
-        <img src="/public/Catering is the busi.png" alt="" />
+        <img src="/Catering is the busi.png" alt="" />
       </div>
 
       <SwiperSection />
