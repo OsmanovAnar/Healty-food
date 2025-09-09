@@ -1,28 +1,33 @@
-import React, { useRef, useState } from 'react';
-import { Pagination } from 'swiper/modules';
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from 'swiper/modules';
+
+
 
 
 const SwiperSection = () => {
   return (
+    <>
       <Swiper
         slidesPerView={2}
-        spaceBetween={35}
+        spaceBetween={30}
         pagination={{
           clickable: true,
         }}
         modules={[Pagination]}
-        className="mySwiper w-[735px] h-[270px] flex items-center justify-around bg-[#1A1A1A]"
+        className="mySwiper w-full h-[250px] bg-gray-700 flex justify-center items-center"
       >
-        <SwiperSlide><img className='w-full h-full' src="/eat1.png" alt="" /></SwiperSlide>
-        <SwiperSlide><img className='w-full h-full' src="/eat2.png" alt="" /></SwiperSlide>
-        <SwiperSlide><img className='w-full h-full' src="/eat1.png" alt="" /></SwiperSlide>
-        <SwiperSlide><img className='w-full h-full' src="/eat2.png" alt="" /></SwiperSlide>
+        <SwiperSlide>Slide 1</SwiperSlide>
+        <SwiperSlide>Slide 2</SwiperSlide>
+        <SwiperSlide>Slide 3</SwiperSlide>
+        <SwiperSlide>Slide 4</SwiperSlide>
+        <SwiperSlide>Slide 5</SwiperSlide>
+        <SwiperSlide>Slide 6</SwiperSlide>
+        <SwiperSlide>Slide 7</SwiperSlide>
+        <SwiperSlide>Slide 8</SwiperSlide>
+        <SwiperSlide>Slide 9</SwiperSlide>
       </Swiper>
+    </>
   )
 }
-
-
 
 export default SwiperSection

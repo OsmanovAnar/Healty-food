@@ -1,5 +1,5 @@
-import Header from './header/header'
-import Main from './main/sections/main'
+import Header from './header/Header'
+import Main from './main/sections/Main'
 
 const App = () => {
   return (
