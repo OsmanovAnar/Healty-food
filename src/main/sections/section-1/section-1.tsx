@@ -1,4 +1,4 @@
-import TimeAdresPhone from '../../time-adres-phone'
+import TimeAdresPhone from '../../../components/time-adres-phone'
 
 const Section1 = () => {
   return (

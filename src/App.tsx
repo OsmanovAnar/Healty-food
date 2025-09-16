@@ -1,6 +1,6 @@
 import Footer from './footer/footer'
 import Header from './header/header'
-import Main from './main/sections/main'
+import Main from './main/main'
 
 const App = () => {
   return (
