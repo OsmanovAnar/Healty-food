@@ -1,8 +1,8 @@
-import HeaderNav from "./header-nav"
+import HeaderNav from './header-nav'
 
 const Header = () => {
   return (
-    <header className="flex h-[90px] w-full items-center justify-center border-b border-gray-700">
+    <header className="fixed z-10 flex h-[90px] w-full items-center justify-center border-b border-gray-700">
       <HeaderNav />
     </header>
   )
