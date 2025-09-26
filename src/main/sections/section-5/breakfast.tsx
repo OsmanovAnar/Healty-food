@@ -5,7 +5,7 @@ const Breakfast = () => {
       <p>05 Jul 2016</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
       <p>Jason Keller</p>
-      <img src="/breakfast-footer.png" alt="Breakfast Footer" />
+      <img src="/social.png" alt="Breakfast Footer" />
     </div>
   )
 }
