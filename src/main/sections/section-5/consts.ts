@@ -1,7 +1,7 @@
 export interface IItem {
   id: number
   text: string
-  type: 'LUNCH' | 'DINNER' | 'BREAKFAST'
+  type: 'LUNCH' | 'DINNER' | 'BREAKFAST' | 'SWEETS'
   date: string
   watchCount: number
   comments: number
@@ -21,16 +21,16 @@ export const items: IItem[] = [
   {
     id: 2,
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut',
-    type: 'LUNCH',
+    type: 'DINNER',
     date: '07 Jan 2016',
     watchCount: 275,
     comments: 12,
-    bgImage: '',
+    bgImage: '/dinner-bg.png',
   },
   {
     id: 3,
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut',
-    type: 'LUNCH',
+    type: 'SWEETS',
     date: '07 Jan 2016',
     watchCount: 275,
     comments: 12,
