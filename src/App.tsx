@@ -4,7 +4,7 @@ import Main from './main/main'
 
 const App = () => {
   return (
-    <div className="bg-[#1A1A1A] bg-[url(/placeholder.png)] bg-cover bg-center">
+    <div className="h-full w-full bg-[#1A1A1A] bg-cover bg-center overflow-hidden">
       <Header />
       <Main />
       <Footer />

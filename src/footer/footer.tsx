@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center gap-[10px] bg-[#252525] pb-[30px]">
         <img className="h-[25px] w-[207px]" src="/Logo.png" alt="" />
         <p>© Designed by Yellow Snow. All Rights Reserved. </p>
       </div>
