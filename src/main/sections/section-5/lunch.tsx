@@ -11,7 +11,7 @@ const Lunch = ({ text, date, comments, type, watchCount, bgImage }: IItem) => {
 
       <div className={`flex items-center justify-between`}>
         <div className={`flex items-center gap-3`}>
-          <span className="w-[65px] h-[25px] rounded-[5px] bg-gray-950/30 text-[10px] text-center leading-[25px]">
+          <span className="h-[25px] w-[65px] rounded-[5px] bg-gray-950/30 text-center text-[10px] leading-[25px]">
             {type}
           </span>
           <span>{date}</span>

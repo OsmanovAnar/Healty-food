@@ -1,13 +1,10 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper/modules';
-import 'swiper/css';
-
-
-
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Pagination } from 'swiper/modules'
+import 'swiper/css'
 
 const SwiperSection = () => {
   return (
-    <div className='w-[735px] h-[270px] flex items-center justify-center'>
+    <div className="flex h-[270px] w-[735px] items-center justify-center">
       <Swiper
         slidesPerView={2}
         spaceBetween={34}
@@ -16,12 +13,36 @@ const SwiperSection = () => {
           clickable: true,
         }}
         modules={[Pagination]}
-        className="mySwiper w-full h-full"
+        className="mySwiper h-full w-full"
       >
-        <SwiperSlide><img className='w-full h-full flex items-center justify-center' src="/eat1.png" alt="Картинка" /></SwiperSlide>
-        <SwiperSlide><img className='w-full h-full flex items-center justify-center' src="/eat2.png" alt="Картинка" /></SwiperSlide>
-        <SwiperSlide><img className='w-full h-full flex items-center justify-center' src="/eat1.png" alt="Картинка" /></SwiperSlide>
-        <SwiperSlide><img className='w-full h-full flex items-center justify-center' src="/eat2.png" alt="Картинка" /></SwiperSlide>
+        <SwiperSlide>
+          <img
+            className="flex h-full w-full items-center justify-center"
+            src="/eat1.png"
+            alt="Картинка"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            className="flex h-full w-full items-center justify-center"
+            src="/eat2.png"
+            alt="Картинка"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            className="flex h-full w-full items-center justify-center"
+            src="/eat1.png"
+            alt="Картинка"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            className="flex h-full w-full items-center justify-center"
+            src="/eat2.png"
+            alt="Картинка"
+          />
+        </SwiperSlide>
       </Swiper>
     </div>
   )
