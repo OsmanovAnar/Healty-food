@@ -1,9 +1,9 @@
-import Twitter from './twitter'
+// import Twitter from './twitter'
 
 const Social = () => {
   return (
     <div>
-      <Twitter />
+      {/* <Twitter /> */}
     </div>
   )
 }
