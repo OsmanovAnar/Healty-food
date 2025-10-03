@@ -7,7 +7,7 @@ const Section1 = () => {
 
       <img className="mt-[16px]" src="/Whether you barbecue.png" alt="" />
 
-      <button className="mt-[40px] h-[72px] w-[220px] rounded-[43px] bg-[#34C759] text-[18px]">
+      <button className="mt-[40px] h-[72px] w-[220px] cursor-pointer rounded-[43px] bg-[#34C759] text-[18px]">
         Order now
       </button>
 
